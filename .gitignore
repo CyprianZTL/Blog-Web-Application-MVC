@@ -169,3 +169,35 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Ignore Python cache
+*.pyc
+__pycache__/
+
+# Ignore environment folders
+venv/
+env/
+
+# Ignore IDE settings
+.idea/
+
+# Ignore local database (if not needed)
+db.sqlite3
+
+# Ignore static files generated dynamically
+staticfiles/
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
