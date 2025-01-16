@@ -1,10 +1,11 @@
 # 📝 Blog Web Application  
 
 ## 🌟 Opis projektu  
-Prosty blog napisany w Django z wykorzystaniem wzorca architektonicznego **MVC**. Aplikacja pozwala na:  
+Projekt jest prostym blogiem stworzonym za pomocą frameworka Django **MVC**, który umożliwia tworzenie, przeglądanie oraz zarządzanie postami, Łatwo rozszerzalny o REST API, dzięki wbudowanym mechanizmom Django i Django REST Framework. Aplikacja pozwala na:  
 - 📄 Przeglądanie listy postów  
 - ➕ Dodawanie nowych postów  
-- 💅 Wyświetlanie strony z estetycznym stylem CSS  
+- 💅 Wyświetlanie strony z estetycznym stylem CSS
+- ✅ Łatwość rozbudowy o API: Dzięki wbudowanym narzędziom Django i Django REST Framework, projekt można łatwo rozbudować o REST API do zarządzania postami i innymi zasobami. 
 
 ---
 
