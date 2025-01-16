@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+<div class="container">
+    <h1>Lista Postów</h1>
+    <a href="/create/">Dodaj nowy post</a>
+    <ul>
+        {% for post in posts %}
+        <li>
+            <h2>{{ post.title }}</h2>
+            <p>{{ post.content }}</p>
+            <small>Dodano: {{ post.created_at }}</small>
+        </li>
+        {% empty %}
+        <li>Brak postów do wyświetlenia.</li>
+        {% endfor %}
+    </ul>
+</div>
+</body>
+</html>

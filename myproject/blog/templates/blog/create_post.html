@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dodaj Post</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+<div class="container">
+    <h1>Dodaj Nowy Post</h1>
+    <form method="POST">
+        {% csrf_token %}
+        <label for="title">Tytuł:</label>
+        <input type="text" id="title" name="title" required>
+        <label for="content">Treść:</label>
+        <textarea id="content" name="content" rows="4" required></textarea>
+        <button type="submit">Dodaj Post</button>
+    </form>
+    <a href="/">Powrót do listy postów</a>
+</div>
+</body>
+</html>
