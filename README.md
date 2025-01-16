@@ -42,12 +42,17 @@ Prosty blog napisany w Django z wykorzystaniem wzorca architektonicznego **MVC**
    python manage.py migrate
    ```
 
-4. **Uruchom serwer**:  
+4. **Utwórz konto administratora**:  
+   ```bash
+   python manage.py createsuperuser
+   ```
+
+5. **Uruchom serwer**:  
    ```bash
    python manage.py runserver
    ```
 
-5. **Otwórz w przeglądarce**:  
+6. **Otwórz w przeglądarce**:  
    Domyślnie aplikacja działa pod adresem:  
    [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
